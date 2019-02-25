@@ -14,7 +14,7 @@ class navbar extends Component {
                             <nav className="b-page-nav">
                                 <div className="b-open-menu d-lg-none"><Link className="site-menu-toggle js-menu-toggle" to="#"><i className="fas fa-bars"></i></Link></div>
                                 <ul className="b-list-item js-clone-nav d-lg-block">
-                                    <li className="b-item"><Link className="b-link" to="/">NGƯỜI DÙNG</Link>
+                                    <li className="b-item"> <Link class="b-link" to="/users">NGƯỜI DÙNG</Link>
                                     </li>
                                     <li className="b-item"><Link className="b-link" to="bussiness.html">DOANH NGHIỆP</Link>
                                     </li>

@@ -20,9 +20,9 @@ class footer extends Component {
                         </div>
                         <div className="col-lg-6">
                             <nav className="b-page-nav" id="top-header">
-                                <ul className="b-list-item js-clone-nav d-lg-block">
+                                <ul className="b-list-item d-lg-block">
                                     <li className="b-item">
-                                        <Link className="b-link" to="user.html">NGƯỜI DÙNG</Link>
+                                        <Link class="b-link" to="/users">NGƯỜI DÙNG</Link>
                                     </li>
                                     <li className="b-item">
                                         <Link className="b-link" to="bussiness.html">DOANH NGHIỆP</Link>
