@@ -43,7 +43,7 @@ class business extends Component {
                         </div>
                         <div className="b-images"><img src="./images/business/banner-top.png" alt="Bussiness" /></div>
                         <div className="b-scroll-bottom" id="top-menu">
-                            <Link className="b-link" to="#function">CUỘN XUỐNG</Link>
+                            <a className="b-link" href="#function">CUỘN XUỐNG</a>
                         </div>
                     </div>
                 </section>
