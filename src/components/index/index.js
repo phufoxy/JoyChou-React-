@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class index extends Component {
     render() {
@@ -20,31 +21,31 @@ class index extends Component {
                         <div className="row">
                             <div className="col-lg-1">
                                 <div className="b-logo">
-                                    <a className="b-link" href="index.html"><img src="./images/partial/logo.png" alt="Logo" /></a>
+                                    <Link className="b-link" to="index.html"><img src="./images/partial/logo.png" alt="Logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <nav className="b-page-nav">
                                     <div className="b-open-menu d-lg-none">
-                                        <a className="site-menu-toggle js-menu-toggle" href="#">
+                                        <Link className="site-menu-toggle js-menu-toggle" to="#">
                                             <i className="fas fa-bars"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <ul className="b-list-item js-clone-nav d-lg-block">
                                         <li className="b-item">
-                                            <a className="b-link" href="user.html">NGƯỜI DÙNG</a>
+                                            <Link className="b-link" to="/business">NGƯỜI DÙNG</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="bussiness.html">DOANH NGHIỆP</a>
+                                            <Link className="b-link" to="/business">DOANH NGHIỆP</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="bussiness.html">FAQ</a>
+                                            <Link className="b-link" to="bussiness.html">FAQ</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="bussiness.html">VỀ CHÚNG TÔI</a>
+                                            <Link className="b-link" to="bussiness.html">VỀ CHÚNG TÔI</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="bussiness.html">BLOCK</a>
+                                            <Link className="b-link" to="bussiness.html">BLOCK</Link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -52,13 +53,13 @@ class index extends Component {
                             <div className="col-lg-5">
                                 <div className="b-login js-clone-lang d-lg-block d-none">
                                     <div className="b-item-lang">
-                                        <a className="b-link" href="#">ENGLISH</a>
+                                        <Link className="b-link" to="#">ENGLISH</Link>
                                     </div>
                                     <div className="b-item">
-                                        <a className="b-link" href="#">ĐĂNG NHẬP</a>
+                                        <Link className="b-link" to="#">ĐĂNG NHẬP</Link>
                                     </div>
                                     <div className="b-item is-active">
-                                        <a className="b-link" href="#">Đăng ký miễn phí</a>
+                                        <Link className="b-link" to="#">Đăng ký miễn phí</Link>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +82,7 @@ class index extends Component {
                                             Facenook Messenger.
 
                                         </p>
-                                        <a className="b-link" href="#">TÌM HIỂU NGAY</a>
+                                        <Link className="b-link" to="#">TÌM HIỂU NGAY</Link>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +98,7 @@ class index extends Component {
                                             Kết nối khách hàng của bản 24/7 Hổ trọ việc kinh doanh của bán 24/7
 
                                         </p>
-                                        <a className="b-link" href="#">TÌM HIỂ NGAY</a>
+                                        <Link className="b-link" to="#">TÌM HIỂ NGAY</Link>
                                     </div>
                                 </div>
                             </div>
@@ -122,19 +123,19 @@ class index extends Component {
                                 <nav className="b-page-nav">
                                     <ul className="b-list-item">
                                         <li className="b-item">
-                                            <a className="b-link" href="#">NGƯỜI DÙNG</a>
+                                            <Link className="b-link" to="#">NGƯỜI DÙNG</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="#">DOANH NGHIỆP</a>
+                                            <Link className="b-link" to="#">DOANH NGHIỆP</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="#">FAQ</a>
+                                            <Link className="b-link" to="#">FAQ</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="#">VỀ CHÚNG TÔI</a>
+                                            <Link className="b-link" to="#">VỀ CHÚNG TÔI</Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="#">BLOCK</a>
+                                            <Link className="b-link" to="#">BLOCK</Link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -143,19 +144,19 @@ class index extends Component {
                                 <nav className="b-page-nav">
                                     <ul className="b-list-social">
                                         <li className="b-item">
-                                            <a className="b-link" href="#">
+                                            <Link className="b-link" to="#">
                                                 <i className="fab fa-facebook-f"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="#">
+                                            <Link className="b-link" to="#">
                                                 <i className="fab fa-youtube"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="b-item">
-                                            <a className="b-link" href="#">
+                                            <Link className="b-link" to="#">
                                                 <i className="fab fa-google-plus-g"></i>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </nav>
