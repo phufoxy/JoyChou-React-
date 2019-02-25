@@ -33,7 +33,7 @@ class user extends Component {
                                     </div>
                                     <ul class="b-list-item js-clone-nav d-lg-block">
                                         <li class="b-item">
-                                            <Link class="b-link" to="user.html">NGƯỜI DÙNG</Link>
+                                            <Link class="b-link" to="/users">NGƯỜI DÙNG</Link>
                                         </li>
                                         <li class="b-item">
                                             <Link class="b-link" to="bussiness.html">DOANH NGHIỆP</Link>
