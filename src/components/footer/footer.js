@@ -22,7 +22,7 @@ class footer extends Component {
                             <nav className="b-page-nav" id="top-header">
                                 <ul className="b-list-item d-lg-block">
                                     <li className="b-item">
-                                        <Link class="b-link" to="/users">NGƯỜI DÙNG</Link>
+                                        <Link className="b-link" to="/users">NGƯỜI DÙNG</Link>
                                     </li>
                                     <li className="b-item">
                                         <Link className="b-link" to="bussiness.html">DOANH NGHIỆP</Link>
