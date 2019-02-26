@@ -36,7 +36,7 @@ class user extends Component {
                                             <Link className="b-link" to="/users">NGƯỜI DÙNG</Link>
                                         </li>
                                         <li className="b-item">
-                                            <Link className="b-link" to="bussiness.html">DOANH NGHIỆP</Link>
+                                            <Link className="b-link" to="/business">DOANH NGHIỆP</Link>
                                         </li>
                                         <li className="b-item">
                                             <Link className="b-link" to="bussiness.html">FAQ</Link>

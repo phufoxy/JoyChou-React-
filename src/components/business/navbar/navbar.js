@@ -16,11 +16,11 @@ class navbar extends Component {
                                 <ul className="b-list-item js-clone-nav d-lg-block">
                                     <li className="b-item"> <Link className="b-link" to="/users">NGƯỜI DÙNG</Link>
                                     </li>
-                                    <li className="b-item"><Link className="b-link" to="bussiness.html">DOANH NGHIỆP</Link>
+                                    <li className="b-item"> <Link className="b-link" to="/business">DOANH NGHIỆP</Link>
                                     </li>
                                     <li className="b-item"><Link className="b-link" to="bussiness.html">FAQ</Link>
                                     </li>
-                                    <li className="b-item"><Link className="b-link" to="bussiness.html">VỀ CHÚNG TÔI</Link>
+                                    <li className="b-item"><Link className="b-link" to="/about">VỀ CHÚNG TÔI</Link>
                                     </li>
                                     <li className="b-item"><Link className="b-link" to="bussiness.html">BLOCK</Link>
                                     </li>

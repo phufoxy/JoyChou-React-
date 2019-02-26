@@ -33,7 +33,7 @@ class index extends Component {
                                     </div>
                                     <ul className="b-list-item js-clone-nav d-lg-block">
                                         <li className="b-item">
-                                            <Link className="b-link" to="/business">NGƯỜI DÙNG</Link>
+                                            <Link className="b-link" to="/users">NGƯỜI DÙNG</Link>
                                         </li>
                                         <li className="b-item">
                                             <Link className="b-link" to="/business">DOANH NGHIỆP</Link>
@@ -42,7 +42,7 @@ class index extends Component {
                                             <Link className="b-link" to="bussiness.html">FAQ</Link>
                                         </li>
                                         <li className="b-item">
-                                            <Link className="b-link" to="bussiness.html">VỀ CHÚNG TÔI</Link>
+                                            <Link className="b-link" to="/about">VỀ CHÚNG TÔI</Link>
                                         </li>
                                         <li className="b-item">
                                             <Link className="b-link" to="bussiness.html">BLOCK</Link>
