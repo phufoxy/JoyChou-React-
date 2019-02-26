@@ -144,7 +144,7 @@ jQuery(document).ready(function ($) {
             .stop()
             .animate({
                 scrollTop: offsetTop
-            }, 900);
+            }, 1900);
         e.preventDefault();
     });
     // Cache selectors
