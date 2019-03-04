@@ -35,6 +35,17 @@ jQuery(document).ready(function ($) {
     // Document on load.
     $(document).ready(function () {
         loaderPage();
+        var t = $(".b-page-footer").innerHeight();
+        $(".b-page-index").css({
+            "min-height": "calc(100vh - " + t + "px)"
+        })
+    });
+    $(window).resize(function () {
+        var t = $(".b-page-footer").innerHeight();
+        console.log(t);
+        $(".b-page-index").css({
+            "min-height": "calc(100vh - " + t + "px)"
+        })
     });
     var siteMenuClone = function () {
 
@@ -144,7 +155,7 @@ jQuery(document).ready(function ($) {
             .stop()
             .animate({
                 scrollTop: offsetTop
-            }, 1900);
+            }, 900);
         e.preventDefault();
     });
     // Cache selectors
